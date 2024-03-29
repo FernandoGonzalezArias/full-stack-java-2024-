@@ -1,0 +1,41 @@
+body {
+    background-color: #212529;
+    color: #777777;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: monserrat, sans-serif;
+}
+
+#titulos-h5 {
+    color: white;
+}
+
+#logoEmpresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+#wsp {
+    color: white;
+    font-size: 1.5em;
+    margin-right: 8px;
+
+}
+
+#email {
+    color: white;
+    font-size: 1.5em;
+    margin-right: 8px;
+}
+
+#location {
+    color: white;
+    font-size: 1.5em;
+    margin-right: 8px;
+}

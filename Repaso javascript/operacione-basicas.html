@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <h1>Trabajando con JavaScript</h1>
+    <script>
+        //alert('alerta desde etiqueta <script>');
+        // Usando la consola.
+        console.log('hola desde consola');
+        var despedida = 'chao';
+        console.log(despedida);
+
+        console.log(3); // valor numérico
+        console.log('3'); //valor tipo texto
+
+        var suma1 = 3 + 3;
+        var suma2 = '3' + '3';
+
+        console.log('El valor de la sum a es: ' + suma1);
+        console.log('El valor de la concatenación es: ' + suma2);
+        console.log('veamos que nos muestra: ' + 4 + 4); //texto +numero=texto (44)
+        console.log('veamos que nos muestra: ' + (4 + 4)); //resuelve los parentesis primero y luego concatena el resultado (8)
+        console.log('esto es para probar \nsi saltó a la sigiente linea');
+
+        //variables
+
+        var a = 3;
+        console.log('El valor de la variable a es: ' + a);
+        a = 4;
+        console.log('El valor de la variable a es: ' + a);
+
+        //calculadora (operadores aritméticos)
+        //parseInt es una función que transforma un valor de tipo texto en un valor numérico
+        var num1 = parseInt(prompt('ingrese el primer número'));
+        var num2 = parseInt(prompt('ingrese el segundo número'));
+
+        var suma = num1 + num2;
+        var resta = num1 - num2;
+        var multiplica = num1 * num2;
+        var division = num1 / num2;
+        var modulo = num1 % num2;
+
+        alert('la suma de los números es: ' + suma +
+            '\n, la resta es: ' + resta +
+            '\n, la multiplicacion es: ' + multiplica +
+            '\n, la división es: ' + division +
+            '\n, el módulo es: ' + modulo);
+
+        // aca podemos inyectar código html (<br> son saltos de linea)
+        //podríamos agregarle clases de mi hoja de estilo o de bootstrap
+        document.write(
+            '<p>la suma de los números es: ' + suma +
+            '<br>, la resta es: ' + resta +
+            '<br>, la multiplicacion es: ' + multiplica +
+            '<br>, la división es: ' + division +
+            '<br>, el módulo es: ' + modulo + '</p>'
+        );
+
+        var numero1 = 10;
+        var numero2 = '10';
+
+        // (==) compara si dos valores son iguales
+        //(===) compara si dos valores son iguales y del mismo tipo
+        console.log(numero1 == numero2); //true
+        console.log(numero1 === numero2); //false
+    </script>
+    <!--<script src="assets/js/script.js"></script>-->
+    <!--script bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

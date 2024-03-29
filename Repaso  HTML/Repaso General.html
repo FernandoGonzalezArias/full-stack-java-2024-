@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--titulo de pagina-->
+    <title>Repaso</title>
+    <!--icono favicon-->
+    <link rel="shortcut icon" href="./assets/img/1200px-AmazonWebservices_Logo.svg.png" type="image/x-icon">
+    <!--cdn font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <hr>
+    <hr>
+    <hr>
+    <header>
+        <h1>Esto es una cabecera</h1>
+        <p>el header me permite agregar yna seccion al estilo cabecera</p>
+    </header>
+    <hr>
+    <hr>
+    <hr>
+    <!-- el nav me permite agregar una seccion que sera de navegacion -->
+    <nav>
+        <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+        </ul>
+    </nav>
+    <hr>
+    <hr>
+    <hr>
+    <section>
+        <p>esto es una seccion generica</p>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quod quo distinctio voluptatibus
+            reiciendis quis itaque id expedita sint eaque! Modi in, eligendi dolorum eos enim ducimus aperiam recusandae
+            assumenda?</article>
+    </section>
+    <!--agregar una seccion que representa el pie de pagina web-->
+    <hr>
+    <hr>
+    <hr>
+    <footer>
+        <p>aca ira la informacion de la empresa como redes sociales y otras al final</p>
+    </footer>
+    <hr>
+    <hr>
+    <hr>
+    <div>
+        <p>sirve para agrupar elementos o etiquetas de nuestra pagina</p>
+        <p>tambien sirve para agrupar algo que en especifico le daremos CSS</p>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <!-- control + 7 se comenta todo lo selecionado -->
+    <!--icono font awesome-->
+    <i class="fa-regular fa-registered"></i>
+    <hr>
+    <hr>
+    <hr>
+    <!-- etiqueta <p> sirve para agregar texto-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate omnis molestiae repudiandae quasi
+        quaerat, eveniet, quis officiis eum quos veritatis corporis cumque tenetur quia maiores laudantium numquam
+        delectus qui?</p>
+    <p>esto es otra linea</p>
+    <hr>
+    <hr>
+    <hr>
+    <!-- etiqueta <a> sirve para agregar enlaces a otras paginas -->
+    <a href="http://www.youtube.com" target="_blank">Ir a youtube</a>
+
+    <hr>
+    <hr>
+    <hr>
+    <!-- etiqueta <img> sirve para agregar imagenes -->
+    <!--./ para navegar dede donde estoy hacia adentro
+        ../ navega un nivel atras-->
+    <img src="./assets/img/descarga.png" alt="Aws" width="50">
+    <img src="assets/img/1200px-AmazonWebservices_Logo.svg.png" alt="Aws" width="50">
+    <img src="assets/img/migracion-aws.webp" alt="Aws" width="50">
+    <img src="https://z-p3-static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Logo de facebook" width="50">
+    <hr>
+    
+    <hr>
+    <hr>
+    <!-- Formularios -->
+    <form action="" method="post"> <!-- el method es obligatorio, post envia,get recibe-->
+        <label for="Nombre">Nombre</label> <!-- tiene la funcion de identificar el campo "input" -->
+        <input type="text" name="Nombre" id="Nombre"> <!-- es la caja donde se ingresa la informacion" -->
+        <!-- el atributo name(input) se relacione con el atributo for del label -->
+        <button>Enviar</button> <!--boton-->
+    </form>
+    
+    <hr>
+    <!-- EJEMPLOS DE INPUT -->
+    <form action="" method="post"> <!--el method es obligatorio, post envia,get recibe-->
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Fernando Gonzalez">
+        <!--el "placeholder" muestra un ejemplo dentro del input-->
+        <br><br>
+        <label for="correo">Correo</label>
+        <input type="email" name="correo" id="correo" placeholder="Efernando.g94@gmail.com" minlength="5">
+        <br><br>
+        <label for="telefono">Telefono</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="56945969932" maxlength="11">
+        <br><br>
+        <label for="motivo-consulta">Motivo </label>
+        <input type="text" id="motivo-consulta" name="motivo-consulta">
+        <br><br>
+        <label for="explicacion">"textarea" es</label>
+        <textarea id="explicacion" name="explicacion" rows="6">caja de texto mas grande</textarea>
+        <br><br>
+        <label for="hora">Hora</label>
+        <input type="time" name="hora" id="hora">
+        <br><br>
+        <label for="cantidadAsistentes">Cantidad de Asistentes</label>
+        <input type="text" name="cantidadAsistentes" id="cansidadAsistentes">
+        <br><br>
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" id="fecha">
+        <br><br>
+        <label for="mes">Mes</label>
+        <input type="month" name="mes" id="mes">
+        <br><br>
+        <label for="semana">Semanas</label>
+        <input type="week" name="semana" id="semana">
+        <br><br>
+        <label for="seleccionMultiple">checkbox</label>
+        <input type="checkbox" name="seleccionMultiple" id="check">
+        <br><br>
+        <label for="hobby">type radio (opcion)</label>
+        <input type="radio" name="hobby[]">
+        <input type="radio" name="hobby[]">
+        <input type="radio" name="hobby[]">
+        <br><br>
+        <label for="rango">Type rango(rango)</label>
+        <input type="range" name="rango" id="rango" min="1" max="10" value="0">
+        <br><br>
+        <label for="imagen">Enviar imagen</label>
+        <input type="file" name="imagen" id="imagen">
+        <br><br>
+        <label for="">Especialidad medica</label>
+        <select name="especialidad medica" id="especialidad medica">
+            <option value="medicinaIntegral">MEDICINA INTEGRAL</option>
+            <option value="medicinaGeneral">MEDICINA GENERAL</option>
+            <option value="traumatologia">TRAUMATOLOGIA</option>
+            <option value="nutricionista">NUTRICIONISTA</option>
+        </select>
+        <br><br>
+        <input type="button" value="Guardar"> <!--input de type submit es un boton para enviar el formulario-->
+    </form>
+    <hr>
+    <hr>
+    <hr>
+
+
+</body>
+
+</html>

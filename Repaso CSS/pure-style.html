@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* autilizo las etiquetas para generar reglas css */
+        body {
+            background: #780206;
+            background: -webkit-linear-gradient(to right, #061161, #780206);
+            background: linear-gradient(to right, #061161, #780206);
+        }
+
+        p {
+            background-color: aliceblue;
+        }
+
+        /* asi se escriben reglas con ID */
+        #firstLine {
+            background-color: aqua;
+            border-radius: 5px;
+        }
+
+        #seconLine {
+            background-color: aquamarine;
+            border-radius: 5px;
+        }
+
+        /* asi se escriben reglas con reglas class */
+        .color-red {
+            color: red;
+        }
+
+        .color-blue {
+            color: blue;
+        }
+
+        /* asi se combinan los selectores (tercera p) */
+        p.bn-red.color-blue.border-1 {
+            background-color: red;
+            color: white;
+            border-width: 1;
+            border-color: black;
+            border-style: solid;
+            border-radius: 5px;
+        }
+
+        /* asi de combina Id con Class */
+        #fourthLine.bn-blue.color-white.border-1 {
+            background-color: bisque;
+            color: white;
+            border-width: 1;
+            border-color: black;
+            border-style: solid;
+            border-radius: 5px;
+        }
+
+        #text-box {
+            background-color: chartreuse;
+            width: 200px;
+            /*ancho*/
+            height: 100px;
+            /*alto*/
+        }
+
+        .rem-x {
+            font-size: 2rem;
+            /*la medida REM es el tamaño de letra*/
+        }
+    </style>
+
+</head> 
+
+<body>
+    <p id="firstLine" class="color-red">esta es mi primera regla css</p>
+    <p id="seconLine" class="color-blue">esta es una segunda linea</p>
+    <p class="bn-red color-blue border-1">esta es la tercera linea</p>
+    <p id="fourthLine" class="bn-blue color-white border-1">esta es la cuarta linea</p>
+    <p id="text-box" class="rem-x">esto es una caja de texto</p>
+</body>
+
+</html>

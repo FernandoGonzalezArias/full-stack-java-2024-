@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Formulario</title>
+</head>
+
+<body>
+
+    <form action="" >
+
+        <!-- nombre y apellido -->
+
+        <section style="display: flex;">
+            <div style="flex: 1;">
+                <label for="nombre"><b>Nombre</b> </label>
+                <br><br>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div style="flex: 1; text-align: right;">
+                <label for="apellido"><b>Apellido</b> </label>
+                <br><br>
+                <input type="text" name="apellido" id="apellido">
+            </div>
+        </section>
+
+
+        <br><br>
+
+        <!-- direccion -->
+        <div>
+            <label for="explicacion"><b>Direccion</b> </label>
+            <br><br>
+            <textarea id="explicacion" name="explicacion" cols="79"></textarea>
+        </div>
+        <br>
+
+        <!-- seleccionar sexo -->
+        <div>
+            <label for="sexo"><b>Sexo</b></label>
+            <br><br>
+            <select name="sexo" id="sexo" style="width: 600px;">
+                <option value="seleccionar">Seleccionar</option>
+                <option value="mujer">Mujer</option>
+                <option value="hombre">Hombre</option>
+            </select>
+        </div>
+        <br><br>
+
+        <!-- click en comida favorita -->
+        <div>
+            <label for=""><b>Comida favorita</b> </label>
+            <br><br>
+            <input type="radio" name="nacionalidad" id="pais">
+            <label for="nacionalidad"> Chilena</label>
+            <input type="radio" name="nacionalidad" id="pais1">
+            <label for="nacionalidad"> China</label>
+            <input type="radio" name="nacionalidad" id="pais3">
+            <label for="nacionalidad"> Mexicana</label>
+            <input type="radio" name="nacionalidad" id="pais4">
+            <label for="nacionalidad"> Venezolana</label>
+            <input type="radio" name="nacionalidad" id="pais5">
+            <label for="nacionalidad"> Colombiana</label>
+        </div>
+        <br><br>
+
+        <!-- click en deporte favorito -->
+        <div>
+            <label for=""><b>Deporte Favorito</b> </label>
+            <br><br>
+            <input type="checkbox" name="deportes" id="deportes">
+            <label for="deportes">Montar Bicicleta</label>
+            <input type="checkbox" name="deportes" id="deportes2">
+            <label for="deportes">Senderismo</label>
+            <input type="checkbox" name="deportes" id="deportes3">
+            <label for="deportes">Natacion</label>
+            <input type="checkbox" name="deportes" id="deportes4">
+            <label for="deportes">Futball</label>
+        </div>
+        <br><br>
+
+        <!-- fecha calendario -->
+        <label for="fecha"><b>Fecha de nacimiento</b></label>
+        <br><br>
+        <input type="date" name="fecha" id="fecha">
+        <br><br>
+
+        <!-- boton final  -->
+        <div style="text-align: right; ">
+            <button><b>Grabar</b></button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

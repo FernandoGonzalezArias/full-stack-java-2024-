@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Notas Finales</title>
+</head>
+
+<body>
+    <section class="container mt-5">
+        <h1>Notas Finales</h1>
+        <div>
+            <p class="d-inline-block">Nombre: </p>
+            <p class="d-inline-block">Pepe Lota</p>
+        </div>
+        <div>
+            <p class="d-inline-block">Carrera: </p>
+            <p class="d-inline-block">Full Stack Java</p>
+        </div>
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Asignatura</th>
+                    <th scope="col">Nota 1</th>
+                    <th scope="col">Nota 2</th>
+                    <th scope="col">Nota 3</th>
+                    <th scope="col">Promedio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="idAsignatura1"></td>
+                    <td id="idNotaA1_1"></td>
+                    <td id="idNotaA1_2"></td>
+                    <td id="idNotaA1_3"></td>
+                    <td id="idPromedioA1"></td>
+                </tr>
+                <tr>
+                    <td id="idAsignatura2"></td>
+                    <td id="idNotaA2_1"></td>
+                    <td id="idNotaA2_2"></td>
+                    <td id="idNotaA2_3"></td>
+                    <td id="idPromedioA2"></td>
+                </tr>
+                <tr>
+                    <td id="idAsignatura3"></td>
+                    <td id="idNotaA3_1"></td>
+                    <td id="idNotaA3_2"></td>
+                    <td id="idNotaA3_3"></td>
+                    <td id="idPromedioA3"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <script>
+        //llenado primera fila de la tabla
+        //capturo elementos <td> de la tabla, según sus id
+        var elementoAsignatura1 = document.getElementById('idAsignatura1');
+        var elementoAsignatura1Nota1 = document.getElementById('idNotaA1_1');
+        var elementoAsignatura1Nota2 = document.getElementById('idNotaA1_2');
+        var elementoAsignatura1Nota3 = document.getElementById('idNotaA1_3');
+        var elementoAsignatura1Prom = document.getElementById('idPromedioA1');
+
+        //pido notas al usuario y las guardo asignandolas a variables
+        var asignatura1 = 'HTML';
+        var a1nota1 = prompt('ingrese nota 1 de la asignatura [' + asignatura1 + ']');
+        var a1nota2 = prompt('ingrese nota 2 de la asignatura [' + asignatura1 + ']');
+        var a1nota3 = prompt('ingrese nota 3 de la asignatura [' + asignatura1 + ']');
+
+        // a los elementos <td> les inyecté los valores de las variables ingresadas por el usuario
+        elementoAsignatura1.innerHTML = asignatura1;
+        elementoAsignatura1Nota1.innerHTML = a1nota1;
+        elementoAsignatura1Nota2.innerHTML = a1nota2;
+        elementoAsignatura1Nota3.innerHTML = a1nota3;
+
+        //calculamos el promedio 
+        var promA1 = ((parseInt(a1nota1) + parseInt(a1nota2) + parseInt(a1nota3)) / 3).toFixed(2);
+        elementoAsignatura1Prom.innerHTML = promA1;
+        //fin del llenado primera fila de la tabla
+
+        //llenado segunda fila de la tabla
+        //capturo elementos <td> de la tabla, según sus id
+        var elementoAsignatura2 = document.getElementById('idAsignatura2');
+        var elementoAsignatura2Nota1 = document.getElementById('idNotaA2_1');
+        var elementoAsignatura2Nota2 = document.getElementById('idNotaA2_2');
+        var elementoAsignatura2Nota3 = document.getElementById('idNotaA2_3');
+        var elementoAsignatura2Prom = document.getElementById('idPromedioA2');
+
+        //pido notas al usuario y las guardo asignandolas a variables
+        var asignatura2 = 'CSS';
+        var a2nota1 = prompt('ingrese nota 1 de la asignatura [' + asignatura2 + ']');
+        var a2nota2 = prompt('ingrese nota 2 de la asignatura [' + asignatura2 + ']');
+        var a2nota3 = prompt('ingrese nota 3 de la asignatura [' + asignatura2 + ']');
+
+        // a los elementos <td> les inyecté los valores de las variables ingresadas por el usuario
+        elementoAsignatura2.innerHTML = asignatura2;
+        elementoAsignatura2Nota1.innerHTML = a2nota1;
+        elementoAsignatura2Nota2.innerHTML = a2nota2;
+        elementoAsignatura2Nota3.innerHTML = a2nota3;
+
+        //calculamos el promedio 
+        var promA2 = ((parseInt(a2nota1) + parseInt(a2nota2) + parseInt(a2nota3)) / 3).toFixed(2);
+        elementoAsignatura2Prom.innerHTML = promA2;
+        console.log('el promedio asignatura 2: ' + promA2);
+        //fin del llenado segunda fila de la tabla
+    </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

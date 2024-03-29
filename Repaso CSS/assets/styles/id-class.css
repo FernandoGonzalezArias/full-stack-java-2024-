@@ -1,0 +1,45 @@
+p{
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+body{
+    background: #D38312; 
+    background: -webkit-linear-gradient(to right, #A83279, #D38312); 
+    background: linear-gradient(to right, #A83279, #D38312);  
+ 
+}
+
+.d1{
+    
+    width: auto;
+    height: 100px;
+    border: 1px solid;
+    margin: auto;
+    margin-bottom: 10px;
+    background: #948E99;  
+    background: -webkit-linear-gradient(to right, #2E1437, #948E99);
+    background: linear-gradient(to right, #2E1437, #948E99);
+
+}
+
+.d2{
+    width: auto;
+    height: 100px;
+    border: 1px solid;
+    margin: auto;
+    margin-bottom: 10px;
+    background: #73C8A9;  
+    background: -webkit-linear-gradient(to right, #373B44, #73C8A9); 
+    background: linear-gradient(to right, #373B44, #73C8A9); 
+
+}
+
+#psx{
+    transition: 4s;
+    color: aqua;
+}

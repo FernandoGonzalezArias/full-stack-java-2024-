@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+@media (min-width: 576px) {
+    body {
+        background-color: red;
+
+    }
+    h1{
+        color: black;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+    h1{
+        color: yellowgreen;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-color: blueviolet;
+    }
+    h1{
+        color: blue;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        background-color: aqua;
+    }
+    h1{
+        color: violet;
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        background-color: burlywood;
+    }
+    h1{
+        color: greenyellow;
+    }
+}
