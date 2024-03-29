@@ -1,0 +1,21 @@
+package com.cursojava04.modulo4.decisiones;
+
+public class PracticasIf {
+
+	public static void main(String[] args) {
+		
+		PracticasIf practicas = new PracticasIf();
+		practicas.ifSencillo();
+
+	}
+	
+	public void ifSencillo() {
+		int numero = 10;
+		if(numero < 100) {
+			//LOGICA
+			System.out.println("El numero es menor a 100");
+		}
+		
+	}
+
+}

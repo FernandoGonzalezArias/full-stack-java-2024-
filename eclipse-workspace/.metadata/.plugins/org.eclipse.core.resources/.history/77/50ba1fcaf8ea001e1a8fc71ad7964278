@@ -1,0 +1,32 @@
+package com.cursojava04.modulo4.variables;
+
+public class DemostracionVariables {
+   
+	// metodo de arranque 
+	public static void main(String[] args) {
+		
+		DemostracionVariables demostracion = new DemostracionVariables();
+        demostracion.mostrarPuntaje();
+        demostracion.mostrarPuntajeHistorico();
+	}
+	
+	// metodo de mostrar puntaje
+	public void mostrarPuntaje() {
+	
+		int puntaje = 767;
+		System.out.println(puntaje);
+		
+	}
+	
+	// metodo de puntaje historico
+	public void mostrarPuntajeHistorico() {
+		
+		int puntajeHistorico = 837;
+		System.out.println(puntajeHistorico);
+		
+	}
+	
+
+}
+
+  

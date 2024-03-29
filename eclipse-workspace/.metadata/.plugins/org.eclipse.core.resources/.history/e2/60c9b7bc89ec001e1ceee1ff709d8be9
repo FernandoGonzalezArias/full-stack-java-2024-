@@ -1,0 +1,16 @@
+package com.cursojava04.modulo4.billetera;
+
+public class UsoBilletera {
+
+	public static void main(String[] args) {
+		
+		Billetera billeteraJ4 = new Billetera();
+		
+		billeteraJ4.consultarSaldo();
+		billeteraJ4.retirarSaldo();
+		billeteraJ4.transferirSaldo();
+		billeteraJ4.ingresarSaldo();
+		
+	}
+
+}

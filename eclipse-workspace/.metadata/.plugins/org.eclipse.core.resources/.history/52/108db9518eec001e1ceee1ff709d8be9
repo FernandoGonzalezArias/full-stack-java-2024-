@@ -1,0 +1,10 @@
+package com.cursojava04.modulo4.switch1;
+
+public class UsandoSwitch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
