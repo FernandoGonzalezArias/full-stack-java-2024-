@@ -1,0 +1,9 @@
+package com.cursojava04.modulo4.practicas;
+
+public class SumadorAutomatico {
+	
+	public int sumadorDictador() {
+		return 7+4;
+	}
+
+}

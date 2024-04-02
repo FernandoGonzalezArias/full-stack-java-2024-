@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.cursojava04.modulo4.practicas&apos; to &apos;com.cursojava04.modulo4.practicasreturn&apos;&#x0D;&#x0A;- Original project: &apos;Curso-Java-M4&apos;&#x0D;&#x0A;- Original element: &apos;Curso-Java-M4/src/com.cursojava04.modulo4.practicas&apos;&#x0D;&#x0A;- Renamed element: &apos;Curso-Java-M4/src/com.cursojava04.modulo4.practicasreturn&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.cursojava04.modulo4.practicas&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.cursojava04.modulo4.practicas" name="com.cursojava04.modulo4.practicasreturn" qualified="false" references="true" stamp="1712099033699" textual="false" version="1.0"/>
+</session>
