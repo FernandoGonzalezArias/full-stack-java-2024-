@@ -10,6 +10,10 @@ public class Main {
 		
 		System.out.println("-----DECLARACION DE UN ARREGLO DE ENTEROS-----------");
 		
+		int [] numeros;
+		// CREACION DEL ARREGLO
+		numeros = new int[7];
+		
 		// TAMBIEN SE PUEDE HACER EN 1 LINEA
 		int[] digitos = new int[7];
 		// EL 7 SIGNIFICA LOS ESPACIOS PARA DATOS
@@ -36,10 +40,8 @@ public class Main {
 	       System.out.println("Elemento en la posición " + i + ": " + digitos[i]);
 	    }
 		
-		// CREAMOS EL OBJETO Y LLAMAMOS LOS METODOS
 		Main main = new Main();
 		main.sumarNumeros();
-		main.recorrerConForEach();
 	}
 	
 	public void sumarNumeros() {
@@ -51,21 +53,6 @@ public class Main {
 			suma += misNumeros[i];
 		}
 		System.out.println("La suma es: " + suma);
-	}
-	
-	public void recorrerConForEach() {
-		System.out.println("----------- FOR EACH------------");
-		int[] arregloNumeros = {10,20,30,40,50,60};
-		// RECORRER CON FOR EACH Y MOSTRARLO
-		for(int num : arregloNumeros) {
-			System.out.println(num);
-		}
-		
-		System.out.println("----------- FOR EACH CON STRING------------");
-		String[] arregloNombres = {"Pedro","Juan","Diego","Jose"};
-		for(String nombres : arregloNombres) {
-			System.out.println(nombres);
-		}
 	}
 	
 	

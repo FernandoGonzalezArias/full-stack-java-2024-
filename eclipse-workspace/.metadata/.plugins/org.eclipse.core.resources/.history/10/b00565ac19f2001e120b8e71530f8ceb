@@ -60,11 +60,10 @@ public class Main {
 		for(int num : arregloNumeros) {
 			System.out.println(num);
 		}
-		
 		System.out.println("----------- FOR EACH CON STRING------------");
-		String[] arregloNombres = {"Pedro","Juan","Diego","Jose"};
-		for(String nombres : arregloNombres) {
-			System.out.println(nombres);
+		String[] nombres = {"Pedro","Juan","Diego","Jose"};
+		for(String nomb : nombres) {
+			System.out.println(nomb);
 		}
 	}
 	

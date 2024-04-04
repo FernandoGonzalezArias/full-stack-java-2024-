@@ -3,12 +3,18 @@ package com.cursojava04.modulo4.arreglos;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		
 		// LOS ARREGLOS DEBEN SER DE UN MISMO TIPO
 		// SON DE TAMAÑO FIJO Y USA INDICES
 		//-----------------------------------------------------
 		
 		
 		System.out.println("-----DECLARACION DE UN ARREGLO DE ENTEROS-----------");
+		
+		int [] numeros;
+		// CREACION DEL ARREGLO
+		numeros = new int[7];
 		
 		// TAMBIEN SE PUEDE HACER EN 1 LINEA
 		int[] digitos = new int[7];
@@ -59,12 +65,6 @@ public class Main {
 		// RECORRER CON FOR EACH Y MOSTRARLO
 		for(int num : arregloNumeros) {
 			System.out.println(num);
-		}
-		
-		System.out.println("----------- FOR EACH CON STRING------------");
-		String[] arregloNombres = {"Pedro","Juan","Diego","Jose"};
-		for(String nombres : arregloNombres) {
-			System.out.println(nombres);
 		}
 	}
 	
