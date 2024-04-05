@@ -76,7 +76,7 @@ public class Multidimension {
 	    matriz[5][4] = 29;
 	    matriz[5][5] = 42;
 	    
-	    // IMPRIMIR LA MATRIZ
+	    // Imprimir la matriz
 	    for(int i = 0; i < matriz.length; i++) {
 	        for(int j = 0; j < matriz[i].length; j++) {
 	            System.out.print(matriz[i][j] + " ");
@@ -97,7 +97,7 @@ public class Multidimension {
 	        {31, 32, 33, 34, 35, 36}
 	    };
 
-	    // IMPRIMIR LA MATRIZ
+	    // Imprimir la matriz
 	    for(int i = 0; i < matriz.length; i++) {
 	        for(int j = 0; j < matriz[i].length; j++) {
 	            System.out.print(matriz[i][j] + " ");

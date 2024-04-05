@@ -1,0 +1,10 @@
+package com.cursojava04.modulo4.usostring;
+
+public class UsoString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

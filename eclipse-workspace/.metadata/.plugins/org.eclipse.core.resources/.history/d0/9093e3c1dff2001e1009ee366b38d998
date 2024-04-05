@@ -1,0 +1,33 @@
+package com.cursojava04.modulo4.arreglolistas;
+
+import java.util.ArrayList;
+
+public class UsandoListas {
+
+	public static void main(String[] args) {
+		UsandoListas lista = new UsandoListas();
+		lista.ejemploArrayList();
+
+	}
+	
+	public void ejemploArrayList() {
+		ArrayList<String> listaFrutas = new ArrayList<>();
+		// AGREGAMOS FRUTAS
+		listaFrutas.add("Manzana");
+		listaFrutas.add("Peras");
+		listaFrutas.add("Kiwis");
+		listaFrutas.add("Arandanos");
+		// ASI SE VE TODA LA LISTA
+		System.out.println(listaFrutas);
+		// CON EL GET SE ACCEDE A UN ELEMENTO EN ESPECIFICO
+		System.out.println(listaFrutas.get(0));
+		
+	   System.out.println("------for each--------");
+		for (String fruta : listaFrutas) {
+			System.out.println(fruta);
+		}
+		
+		
+	}
+
+}
