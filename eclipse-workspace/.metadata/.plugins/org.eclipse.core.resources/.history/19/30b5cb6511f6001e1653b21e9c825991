@@ -7,11 +7,6 @@ public class CuentaBancaria {
 	public double saldoActual;
 	public String titular;
 	
-	// Y CON SUS METODOS
-		public void generarSaludoApertura() {
-			System.out.println("Bienvenido a su cuenta");
-		}
-	
 	//CONSTRUCTOR EXPLICITO, LOS VALOS SE INGRESAN EN EL CONSTRUCTOR
 	public CuentaBancaria(String titularQueVienedesdeMain, int numeroDeCuentaQUeVieneDeMain) {
 		this.titular = titularQueVienedesdeMain;
@@ -23,6 +18,9 @@ public class CuentaBancaria {
 		
 	}
 	
-	
+	// Y CON SUS METODOS
+	public void generarSaludoApertura() {
+		System.out.println("Bienvenido a su cuenta");
+	}
 
 }
