@@ -1,1 +1,3 @@
-# EJERCICIOS EN curso-java-M4
+# EJERCICIOS EN CARPETAS
+# - Programacio-Orientada_objeto
+# - If-Else-For-While-Array

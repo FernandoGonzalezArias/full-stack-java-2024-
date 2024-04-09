@@ -16,8 +16,6 @@ public class Main {
 		
 		//CONSTRUIMOS EL RESTO
 		guitarra1.emitirNotaMarca(guitarra1);
-		
-		
 
 	}
 
