@@ -13,10 +13,6 @@ public class Guitarra {
 		System.out.println("Emitiendo una nota");
 	}
 	
-	public void emitirNotaMarca(Guitarra guitarra) {
-		System.out.println(guitarra.marca + " Emitiando una nota");
-	}
-	
 	public void afinar() {
 		System.out.println("Afinando la guitarra");
 	}

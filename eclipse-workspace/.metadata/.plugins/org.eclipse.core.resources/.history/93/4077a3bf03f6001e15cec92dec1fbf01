@@ -15,7 +15,7 @@ public class Main {
 		guitarra1.color = "Black";
 		
 		//CONSTRUIMOS EL RESTO
-		guitarra1.emitirNotaMarca(guitarra1);
+		guitarra1.emitirNota();
 
 	}
 
