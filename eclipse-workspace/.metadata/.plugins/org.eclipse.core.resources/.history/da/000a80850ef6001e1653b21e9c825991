@@ -1,0 +1,20 @@
+package com.cursojava04.modulo4.banco;
+
+public class CuentaBancaria {
+	
+	//ESTRUCTURA DE CLASE CON SUS ATRIBUTOS
+	public int numeroDeCuenta;
+	public double saldoActual;
+	public String titular;
+	
+	//CONSTRUCTOR EXPLICITO	
+	public CuentaBancaria(String titular, int numeroDeCuenta) {
+		
+	}
+	
+	// Y CON SUS METODOS
+	public void generarSaludoApertura() {
+		System.out.println("Bienvenido a su cuenta");
+	}
+
+}

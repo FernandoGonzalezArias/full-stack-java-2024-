@@ -1,0 +1,13 @@
+package com.cursojava04.modulo4.banco;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//CREAMOS EL OBJETO DE LA CLASE
+		CuentaBancaria cuenta = new CuentaBancaria();
+		//LLAMAMOS O INSTANCIAMOS EL OBJETO
+		cuenta.generarSaludoApertura();
+
+	}
+
+}
