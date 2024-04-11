@@ -1,0 +1,34 @@
+package com.cursojava04.modulo4.composicion;
+
+import java.util.List;
+
+public class Casa {
+	//DIRECCION DE LA CASA
+	//LISTA DE HABITACIONES
+	
+	private String direccion;
+	private List<Habitacion> habitaciones;
+	//CONSTRUCTOR
+	public Casa(String direccion ) {
+		this.direccion = direccion;	
+	}
+	//METODO
+	public void agregarHabitacion(Habitacion habitacion) {
+		this.habitaciones.add(habitacion);	
+	}
+	//GETTERS AND SETTERS
+    public String getDireccion() {
+		return direccion;
+	}
+    public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+    public List<Habitacion> getHabitaciones() {
+		return habitaciones;
+	}
+    public void setHabitaciones(List<Habitacion> habitaciones) {
+		this.habitaciones = habitaciones;
+	}
+	
+
+}
