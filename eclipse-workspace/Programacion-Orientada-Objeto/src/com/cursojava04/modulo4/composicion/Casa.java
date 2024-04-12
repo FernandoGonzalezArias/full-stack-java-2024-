@@ -22,7 +22,7 @@ public class Casa {
 	}
 	public void mostrarHabitaciones() {
 		for(Habitacion habitacion : listaHabitaciones) {
-			System.out.println("Tipo habitacion: "+habitacion.getTipoHabitacion());
+			System.out.println("Tipo habitacion: "+habitacion.getTipoRevestimiento());
 		}
 	}
 	
