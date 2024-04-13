@@ -9,7 +9,6 @@ public class Principal {
 		Bailarin bailarinBallet = new BailarinBallet("Thomas", 32);
 		Bailarin bailarinCueca = new BailarinCueca("Fernando", 24);
 		Bailarin bailarinPerreo = new BailarinPerreo("Felix", 20);
-		
 		//CREAMOS UNA LISTA CON TODOS LOS BAILARINES
 		List<Bailarin> bailarines = Arrays.asList(bailarinBallet,
 				                                 bailarinCueca,
