@@ -1,0 +1,17 @@
+package com.cursojava04.modulo4.interfaces2;
+
+public abstract class ShowPerson extends Bailarin {
+
+	public ShowPerson(String nombre, int edad) {
+		super(nombre, edad);
+		
+	}
+
+	@Override
+	public void bailar() {
+		System.out.println("Bailo de todo");
+		
+	}
+
+
+}

@@ -1,0 +1,22 @@
+package com.cursojava04.modulo4.interfaces;
+
+public class BailarinCueca extends Bailarin implements AcrobataInterface{
+
+	public BailarinCueca(String nombre, int edad) {
+		super(nombre, edad);
+		
+	}
+
+	@Override
+	public void hacerAcrobacia() {
+		
+	}
+
+	@Override
+	public void bailar() {
+		
+	}
+
+
+
+}

@@ -11,7 +11,6 @@ INDEX VERSION 1.134+C:\Users\efern\Desktop\Repositorio\Java-2024\eclipse-workspa
 2499951800.index
 3127728267.index
 973652023.index
-1440706097.index
 173680289.index
 2814522370.index
 1165219157.index

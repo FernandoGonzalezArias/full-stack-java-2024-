@@ -1,0 +1,31 @@
+package com.cursojava04.modulo4.interfaces;
+
+public class BailarinCumbia extends Bailarin implements CantarInterface {
+
+	public BailarinCumbia(String nombre, int edad) {
+		super(nombre, edad);
+		
+	}
+
+	@Override
+	public void cantar() {
+		
+	}
+
+	@Override
+	public void falcete() {
+		
+	}
+
+	@Override
+	public void gutural() {
+		
+	}
+
+	@Override
+	public void bailar() {
+		System.out.println(super.toString() + " y bailo la cumbia");
+		
+	}
+
+}
