@@ -1,0 +1,5 @@
+package com.wallet.entidades;
+
+public class Cuenta {
+
+}

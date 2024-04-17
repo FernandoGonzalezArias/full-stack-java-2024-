@@ -1,0 +1,15 @@
+package com.wallet.ejecucion;
+
+import com.wallet.entidades.Cuenta;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Cuenta billetera1 = new Cuenta();
+		billetera1 = Cuenta.crearCuentaDesdeTeclado();
+		billetera1.mostrarInformacion();
+		
+
+	}
+
+}

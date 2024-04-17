@@ -1,9 +1,0 @@
-package com.cursojava04.modulo4.wallet;
-
-public class Cuenta {
-	
-	public int numeroCuenta;
-	public String titular;
-	public double saldo;
-
-}

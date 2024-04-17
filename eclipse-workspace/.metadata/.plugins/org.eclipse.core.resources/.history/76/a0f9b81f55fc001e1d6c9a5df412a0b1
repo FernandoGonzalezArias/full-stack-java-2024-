@@ -1,0 +1,23 @@
+package com.wallet.ejecucion;
+
+import com.wallet.entidades.Cuenta;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//CREAR CUENTA POR TECLADO
+		Cuenta billetera1 = new Cuenta();
+		billetera1 = Cuenta.crearCuentaDesdeTeclado();
+		billetera1.mostrarInformacion();
+		
+		System.out.println("-----------------------------------------");
+		
+		//CREAR CUENTA POR CONSTRUCTOR POR DEFECTO O VACIO
+		Cuenta billetera2 = new Cuenta();
+		billetera2.mostrarInformacion();
+		
+
+	}
+
+}
