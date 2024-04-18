@@ -1,0 +1,15 @@
+package com.cursojava04.modulo4.solid;
+
+public class Empleado {
+	
+	public void calcularSueldo() {
+		//LOGICA DE CALCULO DE SUELDO
+	}
+	
+	//ESTE METODO LE DA OTRA RESPONSABILIDAD A LA CLASE
+	//Y ES QUE REFACTORIZAR CREANDOLO EN OTRA CLASE
+//	public void guardarDatos() {
+//		// LOGICA GUARDAR DATOS EN BD DE UN EMPLEADO
+//	}
+
+}
