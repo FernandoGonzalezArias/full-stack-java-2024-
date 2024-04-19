@@ -1,0 +1,17 @@
+package com.cursojava04.modulo4.solid.liskov.ejercicio;
+
+public class CuentaBancariaPremiun extends CuentaBancaria {
+
+	@Override
+	public void depositar(double monto) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public boolean retirar(double monto) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

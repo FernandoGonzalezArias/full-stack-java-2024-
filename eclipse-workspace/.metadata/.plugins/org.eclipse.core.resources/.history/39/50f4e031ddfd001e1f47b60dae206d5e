@@ -1,0 +1,5 @@
+package com.liskov.entidades;
+
+public class Perro {
+
+}

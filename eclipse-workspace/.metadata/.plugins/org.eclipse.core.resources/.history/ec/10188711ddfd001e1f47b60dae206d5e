@@ -1,0 +1,5 @@
+package com.liskov.entidades;
+
+public interface ComportamientoAnimal {
+
+}

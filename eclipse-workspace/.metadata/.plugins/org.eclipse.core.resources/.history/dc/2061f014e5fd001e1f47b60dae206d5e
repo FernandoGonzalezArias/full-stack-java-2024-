@@ -1,0 +1,7 @@
+package com.cursojava04.modulo4.solid.liskov.ejercicio;
+
+import com.cursojava04.modulo4.constructores.CuentaBancaria;
+
+public class CuentaBancariaBasica extends CuentaBancaria {
+
+}
