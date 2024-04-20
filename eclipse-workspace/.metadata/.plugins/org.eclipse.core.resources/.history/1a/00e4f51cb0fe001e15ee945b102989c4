@@ -1,0 +1,7 @@
+package com.cursojava04.modulo4.solid.interfaces;
+
+public interface DiscipulosRoshiTecnicas {
+	public void tecnicakamehameHa();
+	public void tecnicaPropia();
+
+}

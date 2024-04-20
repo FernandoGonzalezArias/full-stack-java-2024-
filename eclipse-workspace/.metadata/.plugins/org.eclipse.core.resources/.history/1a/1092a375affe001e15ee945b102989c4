@@ -1,0 +1,17 @@
+package com.cursojava04.modulo4.solid.interfaces;
+
+public class tanShinHan implements DiscipulosRoshiTecnicas {
+
+	@Override
+	public void tecnicakamehameHa() {
+		System.out.println("Ten hace el kamehameha");
+
+	}
+
+	@Override
+	public void tecnicaPropia() {
+		System.out.println("Ten hace el kikoju");
+
+	}
+
+}

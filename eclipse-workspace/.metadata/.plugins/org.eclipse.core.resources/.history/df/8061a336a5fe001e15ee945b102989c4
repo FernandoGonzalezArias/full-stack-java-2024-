@@ -1,0 +1,7 @@
+package com.cursojava04.modulo4.solid.liskov.ejercicio;
+
+public abstract class CuentaBancariaRetirable {
+	
+	public abstract boolean retirar(double monto);
+
+}

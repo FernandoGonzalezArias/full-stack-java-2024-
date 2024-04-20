@@ -1,0 +1,17 @@
+package com.cursojava04.modulo4.solid.interfaces;
+
+public class Krilin implements DiscipulosRoshiTecnicas {
+
+	@Override
+	public void tecnicakamehameHa() {
+		System.out.println("Krilin hace el kamehameha");
+
+	}
+
+	@Override
+	public void tecnicaPropia() {
+		System.out.println("Goku hace el kiemsan");
+
+	}
+
+}

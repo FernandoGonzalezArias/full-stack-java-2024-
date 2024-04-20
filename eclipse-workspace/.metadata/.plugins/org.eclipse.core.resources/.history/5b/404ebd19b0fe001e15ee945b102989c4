@@ -1,0 +1,17 @@
+package com.cursojava04.modulo4.solid.interfaces;
+
+public class Chaos implements DiscipulosRoshiTecnicas {
+
+	@Override
+	public void tecnicakamehameHa() {
+		System.out.println("Chaos hace el kamehameha");
+
+	}
+
+	@Override
+	public void tecnicaPropia() {
+		System.out.println("chaos solo explota");
+
+	}
+
+}

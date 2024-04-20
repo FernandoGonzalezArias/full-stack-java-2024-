@@ -1,0 +1,17 @@
+package com.cursojava04.modulo4.solid.interfaces;
+
+public class Yamsha implements DiscipulosRoshiTecnicas {
+
+	@Override
+	public void tecnicakamehameHa() {
+		System.out.println("yamsha hace el kamehameha");
+
+	}
+
+	@Override
+	public void tecnicaPropia() {
+		System.out.println("yamsha hace el sokidam");
+
+	}
+
+}

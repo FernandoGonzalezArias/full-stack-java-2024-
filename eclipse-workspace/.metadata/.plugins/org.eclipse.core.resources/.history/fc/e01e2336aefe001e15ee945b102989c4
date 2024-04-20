@@ -1,0 +1,17 @@
+package com.cursojava04.modulo4.solid.interfaces;
+
+public class Chaos implements DiscipulosRoshiTecnicas {
+
+	@Override
+	public void tecnicakamehameHa() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void tecnicaPropia() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

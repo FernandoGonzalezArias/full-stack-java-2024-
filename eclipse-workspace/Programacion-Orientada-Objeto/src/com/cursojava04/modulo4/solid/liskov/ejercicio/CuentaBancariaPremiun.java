@@ -1,6 +1,6 @@
 package com.cursojava04.modulo4.solid.liskov.ejercicio;
 
-public class CuentaBancariaPremiun extends CuentaBancaria {
+public class CuentaBancariaPremiun extends CuentaBancariaRetirable {
 	
 	private double saldo;
 	private int puntosPrefiero;
@@ -14,7 +14,7 @@ public class CuentaBancariaPremiun extends CuentaBancaria {
 
 	@Override
 	public boolean retirar(double monto) {
-		if(this.saldo >= 0 && this.saldo < monto) {
+		if(this.saldo >= 0 && this.saldo > monto) {
 			this.saldo -= monto;
 			incrementarPuntosPrefiero();
 			return true;

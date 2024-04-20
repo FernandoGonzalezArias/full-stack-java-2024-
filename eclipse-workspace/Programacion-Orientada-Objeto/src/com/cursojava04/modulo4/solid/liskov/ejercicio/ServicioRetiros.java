@@ -9,25 +9,26 @@ public class ServicioRetiros {
 	
 	public void cargarDebitarCuentas() {
 		
-		CuentaBancaria ctaBasica = new CuentaBancariaBasica();
+		CuentaBancariaRetirable ctaBasica = new CuentaBancariaBasica();
 		ctaBasica.depositar(100.00);
 		
-		CuentaBancaria ctaPremiun = new CuentaBancariaPremiun();
+		CuentaBancariaRetirable ctaPremiun = new CuentaBancariaPremiun();
 		ctaPremiun.depositar(200.00);
 		
-		List<CuentaBancaria> cuentas = new ArrayList<CuentaBancaria>();
+		List<CuentaBancariaRetirable> cuentas = new ArrayList<CuentaBancariaRetirable>();
 		cuentas.add(ctaBasica);
 		cuentas.add(ctaPremiun);
 		
 		debitarGastoAdmin(cuentas);
 	}
 
-	private void debitarGastoAdmin(List<CuentaBancaria> cuentas) {
+	private void debitarGastoAdmin(List<CuentaBancariaRetirable> cuentas) {
 		
-		for (CuentaBancaria cuentaBancaria : cuentas) {
+		for (CuentaBancariaRetirable cuentaBancaria : cuentas) {
 			cuentaBancaria.retirar(MONTO_GASTO_ADMIN);
 		}
 		
 	}
 
 }
+ 

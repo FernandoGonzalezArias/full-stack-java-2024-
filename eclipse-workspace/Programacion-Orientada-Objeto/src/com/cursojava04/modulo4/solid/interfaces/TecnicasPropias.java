@@ -1,0 +1,6 @@
+package com.cursojava04.modulo4.solid.interfaces;
+
+public interface TecnicasPropias {
+	void tecnicaPropia();
+
+}
