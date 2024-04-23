@@ -3,4 +3,7 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.cursojava04.modulo4.solid.liskov.ejercicio.CuentaBancaria"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterAll"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.AfterEach"/>
 </qualifiedTypeNameHistroy>
