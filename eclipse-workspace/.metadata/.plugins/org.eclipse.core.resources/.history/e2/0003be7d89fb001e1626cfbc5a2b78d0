@@ -1,9 +1,0 @@
-package com.cursojava04.modulo4.interfaces;
-
-public class Principal {
-
-	public static void main(String[] args) {
-		
-	}
-
-}

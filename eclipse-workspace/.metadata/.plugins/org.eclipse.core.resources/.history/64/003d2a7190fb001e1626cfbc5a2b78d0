@@ -1,6 +1,0 @@
-package com.cursojava04.modulo4.interfaces2;
-
-public interface AcrobataInterface {
-	public void hacerAcrobacia();
-
-}
