@@ -1,5 +1,6 @@
 package com.cursojava04.modulo4.junit;
 
+import static org.junit.Assert.assertThrows;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterAll;
@@ -41,6 +42,25 @@ class OperacionesMatematicasTest {
 		//fail("Not yet implemented");
 		System.out.println("Prueba de suma");
 		assertEquals(4, operaciones.sumar(2, 2));
+	}
+	
+	@Test 
+	public void testRestar() {
+		System.out.println("Prueba de resta");
+		assertEquals(2, operaciones.restar(4, 2));
+	}
+	
+	@Test 
+	public void testMultiplicar() {
+		System.out.println("Prueba de multiplicar");
+		assertEquals(4, operaciones.multiplicar(2, 2));
+	}
+	
+	@Test 
+	public void testDividir() {
+		System.out.println("Prueba de dividir");
+		assertEquals(5, operaciones.dividir(10, 2));
+		assertThrows(Exception.class, () -> operaciones.dividir(0, 0));
 	}
 
 }

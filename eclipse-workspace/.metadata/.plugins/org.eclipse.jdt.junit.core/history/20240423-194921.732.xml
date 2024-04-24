@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OperacionesMatematicasTest" project="Programacion-Orientada-Objeto" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.cursojava04.modulo4.junit.OperacionesMatematicasTest" time="0.05" displayname="OperacionesMatematicasTest" uniqueid="[engine:junit-jupiter]/[class:com.cursojava04.modulo4.junit.OperacionesMatematicasTest]">
+    <testcase name="testSumar" classname="com.cursojava04.modulo4.junit.OperacionesMatematicasTest" time="0.034" displayname="testSumar()" uniqueid="[engine:junit-jupiter]/[class:com.cursojava04.modulo4.junit.OperacionesMatematicasTest]/[method:testSumar()]"/>
+    <testcase name="testMultiplicar" classname="com.cursojava04.modulo4.junit.OperacionesMatematicasTest" time="0.004" displayname="testMultiplicar()" uniqueid="[engine:junit-jupiter]/[class:com.cursojava04.modulo4.junit.OperacionesMatematicasTest]/[method:testMultiplicar()]"/>
+    <testcase name="testDividir" classname="com.cursojava04.modulo4.junit.OperacionesMatematicasTest" time="0.008" displayname="testDividir()" uniqueid="[engine:junit-jupiter]/[class:com.cursojava04.modulo4.junit.OperacionesMatematicasTest]/[method:testDividir()]"/>
+    <testcase name="testRestar" classname="com.cursojava04.modulo4.junit.OperacionesMatematicasTest" time="0.002" displayname="testRestar()" uniqueid="[engine:junit-jupiter]/[class:com.cursojava04.modulo4.junit.OperacionesMatematicasTest]/[method:testRestar()]"/>
+  </testsuite>
+</testrun>

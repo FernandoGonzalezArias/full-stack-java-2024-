@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OperacionesMatematicasTest" project="Programacion-Orientada-Objeto" tests="4" started="4" failures="1" errors="0" ignored="0">
+  <testsuite name="com.cursojava04.modulo4.junit.OperacionesMatematicasTest" time="0.109" displayname="OperacionesMatematicasTest" uniqueid="[engine:junit-jupiter]/[class:com.cursojava04.modulo4.junit.OperacionesMatematicasTest]">
+    <testcase name="testSumar" classname="com.cursojava04.modulo4.junit.OperacionesMatematicasTest" time="0.052" displayname="testSumar()" uniqueid="[engine:junit-jupiter]/[class:com.cursojava04.modulo4.junit.OperacionesMatematicasTest]/[method:testSumar()]"/>
+    <testcase name="testMultiplicar" classname="com.cursojava04.modulo4.junit.OperacionesMatematicasTest" time="0.039" displayname="testMultiplicar()" uniqueid="[engine:junit-jupiter]/[class:com.cursojava04.modulo4.junit.OperacionesMatematicasTest]/[method:testMultiplicar()]">
+      <failure>
+        <expected>6</expected>
+        <actual>1</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;6&gt; but was: &lt;1&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)&#13;
+	at com.cursojava04.modulo4.junit.OperacionesMatematicasTest.testMultiplicar(OperacionesMatematicasTest.java:55)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at java.util.ArrayList.forEach(Unknown Source)&#13;
+	at java.util.ArrayList.forEach(Unknown Source)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testDividir" classname="com.cursojava04.modulo4.junit.OperacionesMatematicasTest" time="0.008" displayname="testDividir()" uniqueid="[engine:junit-jupiter]/[class:com.cursojava04.modulo4.junit.OperacionesMatematicasTest]/[method:testDividir()]"/>
+    <testcase name="testRestar" classname="com.cursojava04.modulo4.junit.OperacionesMatematicasTest" time="0.005" displayname="testRestar()" uniqueid="[engine:junit-jupiter]/[class:com.cursojava04.modulo4.junit.OperacionesMatematicasTest]/[method:testRestar()]"/>
+  </testsuite>
+</testrun>

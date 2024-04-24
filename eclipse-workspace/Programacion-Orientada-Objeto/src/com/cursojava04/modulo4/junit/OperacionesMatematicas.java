@@ -15,7 +15,12 @@ public class OperacionesMatematicas {
 	}
 	
 	public int dividir(int n1, int n2 ){
+		if (n1 == 0 || n2 ==0) {
+			
+			throw new ArithmeticException("no se puede dividir por 0");
+		}
 		return n1 / n2;
+		
 	}
 	
 	
