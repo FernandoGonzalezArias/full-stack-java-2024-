@@ -1,8 +1,0 @@
-package com.cursojava04.modulo4.solid.liskov.ejercicio;
-
-public abstract class CuentaBancaria {
-	
-	public abstract  depositar(double monto);
-	
-
-}

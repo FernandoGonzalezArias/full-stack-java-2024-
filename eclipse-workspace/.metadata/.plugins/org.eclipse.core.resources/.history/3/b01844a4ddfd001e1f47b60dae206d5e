@@ -1,6 +1,0 @@
-package com.cursojava04.mosulo4.solid.liskov;
-
-public interface ComportamientoAnimal {
-	public void comer();
-	public void moverse();
-}
