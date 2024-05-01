@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
 		boolean esValido = servicio.validarUsuario(usuario1);
 		
 		if(esValido) {
-			response.sendRedirect(request.getContextPath() + "/inicio");
+			response.sendRedirect("inicio.jsp");
 		}else {
 			response.sendRedirect("error.jsp");
 		}

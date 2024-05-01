@@ -10,15 +10,7 @@
 </head>
 <body>
 
-
-
-
 <div class="login-box">
-
- <% java.util.Date d = new java.util.Date(); %> 
-          <p style="color: white;">
-             <%=java.text.DateFormat.getDateInstance().format(d)%>
-          </p>
  
   <form action="login" method="post">
     <div class="user-box">
