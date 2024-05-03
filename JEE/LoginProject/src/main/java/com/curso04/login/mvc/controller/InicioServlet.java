@@ -29,7 +29,7 @@ public class InicioServlet extends HttpServlet {
 		
 		request.setAttribute("clientes", lstClientes);
 		
-		request.getRequestDispatcher("inicio.jsp").forward(request, response);
+		request.getRequestDispatcher("inicio_tag.jsp").forward(request, response);
 	}
 
 }

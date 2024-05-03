@@ -1,8 +1,10 @@
 <%@page import="org.apache.jasper.tagplugins.jstl.core.ForEach"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="java.util.List" %>
 <%@ page import="com.curso04.login.mvc.modelo.Cliente" %>
+
 
 <!DOCTYPE html>
 <html>
@@ -14,7 +16,7 @@
 <body>
   
            <div class="container">
-        <h3>Lista de clientes</h3>
+        <h3>Lista de clientes usando jstl</h3>
         <table>
             <thead>
                 <tr>
@@ -24,18 +26,16 @@
                 </tr>
             </thead>
             <tbody>
-                <% 
-                List<Cliente> lstClientes = (List<Cliente>) request.getAttribute("clientes");
-                for(Cliente cliente : lstClientes){
-                %>
-                <tr>
-                    <td><%= cliente.getNombre() %></td>
-                    <td><%= cliente.getApellido() %></td>
-                    <td><%= cliente.getDireccion() %></td>
-                </tr>
-                <%
-                }
-                %>
+            
+                <c:forEach var="cliente" items="${clientes}">
+                    <tr>
+                        <td><c:out value="${cliente.nombre}"/></td>
+                        <td><c:out value="${cliente.apellido}"/></td>
+                        <td><c:out value="${cliente.direccion}"/></td>
+                    </tr>
+                </c:forEach>
+                
+               
             </tbody>
         </table>
         
