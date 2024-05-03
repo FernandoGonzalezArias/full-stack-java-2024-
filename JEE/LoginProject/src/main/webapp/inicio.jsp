@@ -38,6 +38,9 @@
                 %>
             </tbody>
         </table>
+        <br>
+        <a href="login.jsp" class="btn">Cerras sesion</a>
+        
     </div>
         
    
