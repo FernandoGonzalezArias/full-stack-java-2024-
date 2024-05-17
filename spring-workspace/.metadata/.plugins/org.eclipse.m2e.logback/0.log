@@ -1355,3 +1355,139 @@
 2024-05-15 21:23:51,392 [Worker-4: Launching demo (4)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\efern\Desktop\Programacion\Spring Tool Suite 4\plugins\com.google.guava.failureaccess_1.0.2.jar
 2024-05-15 21:23:51,396 [Worker-4: Launching demo (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\demo":
 2024-05-15 21:23:51,402 [Worker-4: Launching demo (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -Ppom.xml -B -Dstyle.color=always test
+2024-05-16 18:12:17,503 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-05-16 19:14:16,286 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso04:democontainerv1:0.0.1-SNAPSHOT @ C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\pom.xml.
+2024-05-16 19:14:19,111 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /democontainerv1/src/main/java
+2024-05-16 19:14:19,114 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /democontainerv1/src/main/resources
+2024-05-16 19:14:19,123 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /democontainerv1/src/main/resources
+2024-05-16 19:14:19,130 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /democontainerv1/src/test/java
+2024-05-16 19:14:19,133 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /democontainerv1/src/test/resources
+2024-05-16 19:14:19,473 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2024-05-16 19:14:19,479 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-16 19:14:20,037 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso04:democontainerv1:0.0.1-SNAPSHOT @ C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\pom.xml.
+2024-05-16 19:14:20,509 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /democontainerv1/src/main/java
+2024-05-16 19:14:20,509 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /democontainerv1/src/main/resources
+2024-05-16 19:14:20,511 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /democontainerv1/src/main/resources
+2024-05-16 19:14:20,511 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /democontainerv1/src/test/java
+2024-05-16 19:14:20,512 [Worker-10: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /democontainerv1/src/test/resources
+2024-05-16 19:14:20,837 [Worker-10: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-05-16 19:14:21,602 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:14:21,631 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 19:14:21,636 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\src\test\resources
+2024-05-16 19:16:57,162 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:16:57,191 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 19:16:57,238 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\src\test\resources
+2024-05-16 19:27:35,240 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 19:27:35,242 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:27:35,250 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\src\test\resources
+2024-05-16 19:27:48,542 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:27:48,551 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:27:48,559 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\src\test\resources
+2024-05-16 19:37:24,974 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 19:37:24,975 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:37:24,981 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\src\test\resources
+2024-05-16 19:37:36,838 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 19:37:36,839 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:37:36,846 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\src\test\resources
+2024-05-16 19:40:05,885 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:40:05,897 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:40:05,905 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\src\test\resources
+2024-05-16 19:40:16,831 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:40:16,835 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:40:16,842 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\src\test\resources
+2024-05-16 19:40:24,160 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:40:24,170 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:40:24,178 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\src\test\resources
+2024-05-16 19:52:27,932 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:52:27,943 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:52:27,948 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\src\test\resources
+2024-05-16 19:56:31,838 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 19:56:31,839 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 19:56:31,844 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv1\src\test\resources
+2024-05-16 20:36:04,075 [Worker-57: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso04:democontainerv1:0.0.1-SNAPSHOT @ C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\pom.xml.
+2024-05-16 20:36:04,937 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:36:04,967 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:36:04,976 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:36:06,253 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:36:06,258 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:36:06,265 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:37:43,852 [Worker-56: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.curso04:democontainerv1:0.0.1-SNAPSHOT @ C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\pom.xml.
+2024-05-16 20:37:44,747 [Worker-56: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier  to /demo/target/classes
+2024-05-16 20:37:45,121 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 20:37:45,122 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 20:37:45,130 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:37:46,324 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:37:46,346 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:37:46,351 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:37:57,431 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:37:57,442 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:37:57,451 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:38:04,041 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:38:04,049 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:38:04,059 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:39:10,175 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:39:10,179 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:39:10,186 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:39:16,764 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:39:16,769 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:39:16,773 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:39:23,819 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:39:23,868 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:39:23,881 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:39:26,551 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:39:26,595 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:39:26,609 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:39:36,985 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:39:37,025 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:39:37,034 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:43:02,251 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:43:02,259 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:43:02,265 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:43:37,540 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:43:37,603 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:43:37,619 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:51:57,427 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:51:57,462 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:51:57,467 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:53:30,413 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:53:30,420 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:53:30,424 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:54:39,363 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:54:39,373 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:54:39,379 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:56:30,092 [Worker-71: Launching Attacher] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:56:30,102 [Worker-71: Launching Attacher] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:56:30,112 [Worker-71: Launching Attacher] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 20:56:30,370 [Worker-71: Launching Attacher] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 20:56:30,519 [Worker-71: Launching Attacher] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 20:56:30,671 [Worker-71: Launching Attacher] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 20:56:35,810 [Worker-67: Launching Attacher] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 20:56:35,955 [Worker-67: Launching Attacher] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 20:56:36,117 [Worker-67: Launching Attacher] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 20:57:05,197 [Worker-69: Launching Main (1)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 20:57:05,295 [Worker-69: Launching Main (1)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 20:57:05,389 [Worker-69: Launching Main (1)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 21:00:16,140 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 21:00:16,150 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 21:00:16,154 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 21:00:24,165 [Worker-73: Launching Main (1)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 21:00:24,272 [Worker-73: Launching Main (1)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 21:00:24,381 [Worker-73: Launching Main (1)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 21:02:39,543 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 21:02:39,552 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 21:02:39,556 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 21:02:53,927 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 21:02:53,934 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 21:02:53,937 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 21:02:57,589 [Worker-78: Launching Main (1)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 21:02:57,678 [Worker-78: Launching Main (1)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 21:02:57,777 [Worker-78: Launching Main (1)] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier null to /demo/target/classes
+2024-05-16 21:22:57,042 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-05-16 21:24:09,511 [Worker-11: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/demo: com.curso04:demoSpring:0.0.1-SNAPSHOT with classifier  to /demo/target/classes
+2024-05-16 21:24:09,901 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 21:24:09,921 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 21:24:09,940 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 21:25:43,768 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 21:25:43,805 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 21:25:43,817 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\efern\Desktop\Repositorio\Java-2024\spring-workspace\democontainerv2\src\test\resources
+2024-05-16 21:27:14,209 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
