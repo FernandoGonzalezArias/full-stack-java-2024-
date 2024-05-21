@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleft.org">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Título de tu página</title>
+</head>
+
+<body>
+
+	<h1>Lista de tareas</h1><br>
+
+	<ul>
+		<li th:each=" task:  ${tasks}">
+			<span th:text="${task.title}"></span>
+			<input type="checkbox" th:chequed="${task.completed}">
+		</li>
+	</ul>
+
+
+</body>
+
+</html>
