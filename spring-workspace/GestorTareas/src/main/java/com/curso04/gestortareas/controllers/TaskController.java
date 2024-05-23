@@ -8,14 +8,23 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.curso04.gestortareas.model.Task;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Controller
 public class TaskController {
+	
+	private static final Logger logger = LoggerFactory.getLogger(TaskController.class);
 	
 	@GetMapping("/")
 	public String index(Model model) {
 		
 		//SIMULAMOS LA CREACION DE UNA TAREA PARA DEVOLVERLA
+		logger.debug("Este es un mensaje de nivel debug");
+		logger.info("este es un logger de info ");
+		logger.warn("este es un warning");
+		logger.error("este es error");
+		
 		List<Task> taskList = new ArrayList<>();
 		Task task1 = new Task("Hacer modulo 2", false);
 		Task task2 = new Task("Hacer modulo 3", false);
