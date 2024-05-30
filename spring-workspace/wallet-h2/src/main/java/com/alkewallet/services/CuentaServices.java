@@ -5,7 +5,9 @@ import org.springframework.stereotype.Service;
 
 
 import com.alkewallet.dto.CuentaDTO;
+import com.alkewallet.model.Cliente;
 import com.alkewallet.model.Cuenta;
+import com.alkewallet.repository.ClienteRepository;
 import com.alkewallet.repository.CuentaRepository;
 
 import jakarta.annotation.PostConstruct;
@@ -16,13 +18,24 @@ public class CuentaServices {
 	@Autowired
 	private CuentaRepository cuentaRepository;
 	
+	@Autowired
+	private ClienteRepository clienteRepository;
+	
 	@PostConstruct
 	public void init() {
+		Cliente cliente = new Cliente();
+		
 		Cuenta cuenta = new Cuenta();
-		cuenta.setNumeroCuenta(123456);
+		
 		cuenta.setNombreCliente("Rick");
 		cuenta.setSaldoActual(100.0);
+		
+		cliente.setNombre("Rick Titular");
+		clienteRepository.save(cliente);
+		cliente.setCuenta(cuenta);
 		cuentaRepository.save(cuenta);
+		
+		
 	}
 	
 	public CuentaDTO getCuenta() {

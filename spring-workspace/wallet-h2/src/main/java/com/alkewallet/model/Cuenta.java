@@ -1,7 +1,10 @@
 package com.alkewallet.model;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
 
 @Entity
 public class Cuenta {
@@ -12,12 +15,18 @@ public class Cuenta {
 	private Double saldoActual;
 	private String verDatos;
 	
-	public Cuenta(String nombreCliente, Integer numeroCuenta, Double saldoActual, String verDatos) {
+	@OneToOne(mappedBy = "cuenta", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	private Cliente cliente;
+	
+
+
+	public Cuenta(Integer numeroCuenta, String nombreCliente, Double saldoActual, String verDatos) {
 		super();
-		this.nombreCliente = nombreCliente;
 		this.numeroCuenta = numeroCuenta;
+		this.nombreCliente = nombreCliente;
 		this.saldoActual = saldoActual;
 		this.verDatos = verDatos;
+		
 	}
 
 	public Cuenta() {
@@ -54,6 +63,15 @@ public class Cuenta {
 
 	public void setVerDatos(String verDatos) {
 		this.verDatos = verDatos;
+	}
+
+	
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
 	}
 
 	@Override
