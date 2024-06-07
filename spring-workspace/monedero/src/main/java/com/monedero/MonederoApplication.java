@@ -1,13 +1,13 @@
-package com.alkewallet;
+package com.monedero;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WalletApplication {
+public class MonederoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WalletApplication.class, args);
+		SpringApplication.run(MonederoApplication.class, args);
 	}
 
 }
